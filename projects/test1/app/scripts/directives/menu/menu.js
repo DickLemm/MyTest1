@@ -1,7 +1,7 @@
 'use strict';
 var scripts = document.getElementsByTagName("script")
 var currentScriptPath = scripts[scripts.length-1].src;
-//v8
+//v9
 angular.module('dicklemm.menus', [])
   .directive('dlmenu', function () {
 		return {
